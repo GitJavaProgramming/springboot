@@ -1,10 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <title>Multiplication v1</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
-    <!--    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>-->
-    <script src="jquery-3.4.1.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="multiplication-client.js"></script>
 </head>
 
@@ -16,13 +15,23 @@
         <span class="multiplication-a"></span> x <span class="multiplication-b"></span> =
     </h1>
     <p>
-    <form id="attempt-form">
-        Result? <input type="text" name="result-attempt"><br>
-        Your alias: <input type="text" name="user-alias"><br>
-        <input type="submit" value="Check">
-    </form>
+        <form id="attempt-form">
+            Result? <input type="text" name="result-attempt"><br>
+            Your alias: <input type="text" name="user-alias"><br>
+            <input type="submit" value="Check">
+        </form>
     </p>
     <h2><span class="result-message"></span></h2>
+    <h2>Stats</h2>
+    <table id="stats" style="width:100%">
+        <tr>
+            <th>Attempt ID</th>
+            <th>Multiplication</th>
+            <th>You entered</th>
+            <th>Correct?</th>
+        </tr>
+        <tbody id="stats-body"></tbody>
+    </table>
 </div>
 </body>
 </html>

@@ -3,6 +3,8 @@ package org.pp.springboot.service;
 import org.pp.springboot.domain.Multiplication;
 import org.pp.springboot.domain.MultiplicationResultAttempt;
 
+import java.util.List;
+
 public interface MultiplicationService {
     /**
      * 创建随机数乘法对象
@@ -12,4 +14,6 @@ public interface MultiplicationService {
     Multiplication createRandomMultiplication();
 
     boolean checkAttempt(MultiplicationResultAttempt multiplicationResultAttempt);
+
+    List<MultiplicationResultAttempt> getStatsForUser(final String userAlias);
 }
