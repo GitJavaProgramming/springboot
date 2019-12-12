@@ -14,12 +14,17 @@ boot与cloud版本对应表参考：https://spring.io/projects/spring-cloud
 3. UI组件抽离/bootstrap美化 现在实现了前后端分离   
         [V6版本传送门](https://github.com/GitJavaProgramming/microservices-v6-master)    
         
-4. 加入服务注册发现中心（DNS）、负载均衡（ribbon）、API Zuul（网关）、Hystrix断路器和REST客户端  
+4. 加入服务注册发现中心（DNS）、负载均衡（ribbon）、API Zuul（网关）、Hystrix断路器和REST客户端   
+        [V8最终版本传送门](https://github.com/GitJavaProgramming/microservices-v8)      
 
-###### 迁移过程出现的问题在每个版本readme中描述
+###### 迁移过程出现的问题在每个版本readme中描述  
 
-相关项目通过**版本传送门**到达
-        主要问题：
-                api变动
-                boot与cloud版本匹配
-                cloud netflix jar包名称变动
+https://cloud.spring.io/spring-cloud-static/Hoxton.RELEASE/reference/html/spring-cloud.html  
+https://cloud.spring.io/spring-cloud-netflix/reference/html/  
+2.2.1.BUILD-SNAPSHOT  
+
+相关项目通过**版本传送门**到达  
+        主要问题：  
+                api变动  
+                boot与cloud版本匹配  
+                cloud netflix jar包名称变动  
